@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'しっぽり明朝B1 Bold';
+	src: url('./font/ShipporiMinchoB1-Bold.woff') format('woff'),
+	url('./font/ShipporiMinchoB1-Bold.ttf') format('truetype');
+}
+
+body{
+user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+-khtml-user-select: none;
+-webkit-user-drag: none;
+-khtml-user-drag: none;
+}
+
+span.drop {
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-shadow: 0 0 2px #000;
+	font-family: 'しっぽり明朝B1 Bold';
+	position: absolute;
+}
+
+div#puzzle-main {
+	margin: 50px auto;
+	position: relative;
+	overflow: hidden;
+}
+
+#btn-start {
+	display: block;
+	width: 100px;
+	height: 30px;
+	color: #FFF;
+	line-height: 30px;
+	text-shadow: none;
+	background: #CCC;
+	border-radius: 5px;
+	position: absolute;
+}
