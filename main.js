@@ -52,7 +52,6 @@ jQuery(function($) {
   }
 
   //import kanjiData from './data.js';
-  import kanjiData from './data.js'
   const kanjiList = Object.keys(kanjiData)
     .map(k => ([k, kanjiData[k]]))
     .flatMap(k => (k[1].length > 0) ? [k] : [])

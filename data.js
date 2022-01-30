@@ -1,4 +1,4 @@
-export default {
+const kanjiData = {
   "一": [
     "朝一",
     "一握",
