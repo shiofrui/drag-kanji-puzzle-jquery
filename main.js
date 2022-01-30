@@ -1,7 +1,7 @@
 jQuery(function($) {
   const WIDTH = 3;
   const HEIGHT = 3;
-  const SIZE = 100;
+  const SIZE = 300;
   const LEAST_IDIOM_NUM = 1;
   $('#puzzle-main')
     .css('width', SIZE * WIDTH + 'px')
