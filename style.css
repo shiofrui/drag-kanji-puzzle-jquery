@@ -7,21 +7,22 @@
 }
 
 body{
-user-select: none;
--webkit-user-select: none;
--ms-user-select: none;
--moz-user-select: none;
--khtml-user-select: none;
--webkit-user-drag: none;
--khtml-user-drag: none;
+	user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
 }
 
 span.drop {
 	display: block;
+	font-family: 'しっぽり明朝B1 Bold';
+	text-align: center;
 	margin: 0;
 	padding: 0;
 	text-shadow: 0 0 2px #000;
-	font-family: 'しっぽり明朝B1 Bold';
 	position: absolute;
 }
 
@@ -33,12 +34,8 @@ div#puzzle-main {
 
 #btn-start {
 	display: block;
-	width: 100px;
-	height: 30px;
+	font-family: 'しっぽり明朝B1 Bold';
 	color: #FFF;
-	line-height: 30px;
-	text-shadow: none;
-	background: #CCC;
-	border-radius: 5px;
+	background: #000;
 	position: absolute;
 }

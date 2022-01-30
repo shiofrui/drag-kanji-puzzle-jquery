@@ -1,14 +1,18 @@
 jQuery(function($) {
   const WIDTH = 3;
   const HEIGHT = 3;
-  const SIZE = 300;
+  const SIZE = 250;
   const LEAST_IDIOM_NUM = 1;
   $('#puzzle-main')
     .css('width', SIZE * WIDTH + 'px')
     .css('height', SIZE * HEIGHT + 'px');
   $('#btn-start')
-    .css('top', (SIZE * HEIGHT - 30) / 2 + 'px')
-    .css('left', (SIZE * WIDTH - 100) / 2 + 'px');
+    .css('font-size', SIZE / 4 + 'px')
+    .css('top', SIZE * (HEIGHT - 1) / 2 + 'px')
+    .css('left', SIZE * (WIDTH - 1) / 2 + 'px')
+    .css('width', SIZE + 'px')
+    .css('height', SIZE  + 'px');
+
 
   function random(n) {
     return Math.floor(Math.random() * n);
